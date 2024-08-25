@@ -31,7 +31,6 @@ public class Main {
                     .forEach(System.out::println);
 
         System.out.println("\n\nEmployees default sorting order:");
-//        Collections.sort(employeeList, Comparator.comparing(Employee::getAge));
         employeeList.stream().forEach(System.out::println);
 
         System.out.println("\n\nEmployees sorted by age:");
